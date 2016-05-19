@@ -1,0 +1,45 @@
+.fact {
+    font-style: italic;
+}
+
+.fact .label {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.fact-table {
+    list-style-type: none;
+    padding:0;
+}
+
+.boxed {
+    padding: 0 1em;
+    border: thin solid rgba(153,153,153,0.46);
+    max-width:100%;
+    width: 305px;
+}
+
+.boxed.outer {
+    padding: 1em;
+    box-shadow: 6px 6px 14px -1px rgba(153,153,153,0.46);
+    background-image: url("card_bg.jpg");
+}
+
+.boxed.inner {
+    width:300px;
+    max-width: 90%;
+    background-color: antiquewhite;
+}
+
+.animal {
+    display:block;
+    padding: 1em 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.header {
+    font-size: 2em;
+    margin: 0;
+}
